@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flowerpic"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/roses"
+        android:padding="24dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="The Whitest \nFlower Shop"
+        android:textSize="16sp"
+        android:textColor="#0000FF"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:text="
+        Phone Number: 070-4470-9202 \n
+        Email: shengpaulsu@gmail.com \n
+        Website: www.flowershop.com \n
+        Address: 1537 BlueMeadow Road, Potomac 20854 USA \n
+        Description of Business: The Best Local Flower Shop \n
+        Hours of Operation: 9am - 9pm Monday through Saturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="8dp"
+        android:textSize="6sp"
+        android:textColor="#673AB7"
+        />
+</RelativeLayout>
